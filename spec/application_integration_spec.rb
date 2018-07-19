@@ -26,7 +26,7 @@ describe "POST '/greet' - User Greeting" do
     expect(page).to have_text("Hi Avi, nice to meet you!")
   end
 
-  escribe "POST '/greet' - User Greeting" do
+  describe "POST '/greet' - User Greeting" do
     it 'greets the user personally based on their user_name in the form' do
       visit '/'
 
